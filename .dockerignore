@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+cache/
+output/
+voices/*.onnx
+voices/*.onnx.json
+.env
+.git/
+*.pptx
+*.mp4
+*.wav
+*.mp3

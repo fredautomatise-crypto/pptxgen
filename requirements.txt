@@ -1,0 +1,15 @@
+# --- Extraction PDF ---
+pdfplumber>=0.11.0
+PyMuPDF>=1.24.0
+
+# --- LLM (structuration du contenu + chat d'affinage) ---
+openai>=1.30.0
+python-dotenv>=1.0.1
+tenacity>=8.2.0   # retry/backoff automatique sur les appels API (rate limits, erreurs réseau transitoires)
+
+# --- Génération PPTX ---
+python-pptx>=0.6.23
+Pillow>=10.0.0
+
+# --- Interface web (optionnelle, voir webapp/app.py) ---
+streamlit>=1.35.0

@@ -1,0 +1,11 @@
+services:
+  automate-course-forge:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./output:/app/output
+      - ./cache:/app/cache
+      - ./.env:/app/.env:ro
+    environment:
+      - THEME=${THEME:-default}

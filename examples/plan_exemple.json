@@ -1,0 +1,71 @@
+{
+  "module_title": "Webhooks & Data Store",
+  "module_number": 4,
+  "module_total": 6,
+  "subtitle": "Recevoir des données externes et les stocker dans Make",
+  "slides": [
+    {"type": "title", "title": "", "subtitle": "Recevoir des données externes et les stocker dans Make",
+     "speaker_notes": "Bienvenue dans ce module consacré aux webhooks et au Data Store de Make.", "items": [],
+     "column_left_title": "", "column_right_title": "", "column_left_items": [], "column_right_items": []},
+
+    {"type": "objectives", "title": "Ce que vous allez maîtriser dans ce module", "subtitle": "20 – 25 minutes",
+     "speaker_notes": "Dans ce module, on va voir comment créer un webhook personnalisé, le sécuriser, puis stocker les données reçues dans un Data Store.",
+     "items": [
+       {"icon": "bolt", "label": "", "value": "", "text": "Créer un Custom Webhook et comprendre son cycle de vie", "description": ""},
+       {"icon": "lock", "label": "", "value": "", "text": "Sécuriser un webhook avec un token", "description": ""},
+       {"icon": "grid", "label": "", "value": "", "text": "Stocker des données structurées avec le Data Store", "description": ""},
+       {"icon": "swap", "label": "", "value": "", "text": "Mapper les payloads JSON entrants", "description": ""}
+     ],
+     "column_left_title": "", "column_right_title": "20 – 25 minutes",
+     "column_left_items": ["Avoir suivi le Module 3", "Compte Make.com actif", "Notions de JSON basiques"],
+     "column_right_items": []},
+
+    {"type": "stats", "title": "Le Data Store en chiffres", "subtitle": "Ce qu'il faut retenir sur le stockage Make",
+     "speaker_notes": "Voici quelques chiffres clés à connaître sur le Data Store avant de commencer.",
+     "items": [
+       {"icon": "grid", "label": "Records max", "value": "100 000", "text": "", "description": "Par data store sur les plans standards"},
+       {"icon": "clock", "label": "Rétention", "value": "Illimitée", "text": "", "description": "Tant que le data store existe"},
+       {"icon": "gear", "label": "Champs", "value": "10+", "text": "", "description": "Types de champs supportés (texte, nombre, date...)"}
+     ],
+     "column_left_title": "", "column_right_title": "", "column_left_items": [], "column_right_items": []},
+
+    {"type": "section", "title": "Les Webhooks personnalisés", "subtitle": "",
+     "speaker_notes": "Passons maintenant à la création concrète d'un webhook personnalisé.", "items": [],
+     "column_left_title": "", "column_right_title": "", "column_left_items": [], "column_right_items": []},
+
+    {"type": "icon_list", "title": "Les 3 étapes pour créer un Custom Webhook", "subtitle": "",
+     "speaker_notes": "Créer un webhook se fait en trois étapes simples que je vais détailler.",
+     "items": [
+       {"icon": "target", "label": "Créer le webhook", "value": "", "text": "", "description": "Dans Make, ajoute un module Webhooks > Custom Webhook et copie l'URL générée"},
+       {"icon": "link", "label": "Connecter la source", "value": "", "text": "", "description": "Colle cette URL dans l'application externe (formulaire, CRM, API tierce)"},
+       {"icon": "check", "label": "Déterminer la structure", "value": "", "text": "", "description": "Envoie un exemple de payload pour que Make détecte automatiquement les champs"}
+     ],
+     "column_left_title": "", "column_right_title": "", "column_left_items": [], "column_right_items": []},
+
+    {"type": "two_column", "title": "Webhook vs Polling : quand utiliser quoi ?", "subtitle": "",
+     "speaker_notes": "Il existe deux grandes approches pour récupérer des données externes, comparons-les.",
+     "items": [],
+     "column_left_title": "⚡ WEBHOOK (temps réel)", "column_right_title": "⏱ POLLING (planifié)",
+     "column_left_items": ["Déclenchement instantané", "Idéal pour les événements critiques", "Nécessite que la source supporte les webhooks"],
+     "column_right_items": ["Vérifie à intervalle régulier", "Fonctionne avec toute API REST", "Léger délai selon la fréquence choisie"]},
+
+    {"type": "process_flow", "title": "Flux complet : formulaire vers Data Store", "subtitle": "",
+     "speaker_notes": "Voici à quoi ressemble le flux complet, de bout en bout.",
+     "items": [
+       {"icon": "bolt", "label": "Formulaire", "value": "", "text": "", "description": "Soumission utilisateur"},
+       {"icon": "link", "label": "Webhook", "value": "", "text": "", "description": "Réception du payload"},
+       {"icon": "swap", "label": "Mapping", "value": "", "text": "", "description": "Transformation des champs"},
+       {"icon": "grid", "label": "Data Store", "value": "", "text": "", "description": "Enregistrement final"}
+     ],
+     "column_left_title": "", "column_right_title": "", "column_left_items": [], "column_right_items": []},
+
+    {"type": "conclusion", "title": "Ce qu'il faut retenir", "subtitle": "",
+     "speaker_notes": "Pour résumer ce que nous avons vu dans ce module.",
+     "items": [
+       {"icon": "check", "label": "", "value": "", "text": "Un webhook reçoit des données en temps réel depuis n'importe quelle source", "description": ""},
+       {"icon": "check", "label": "", "value": "", "text": "Le Data Store permet de stocker jusqu'à 100 000 enregistrements", "description": ""},
+       {"icon": "check", "label": "", "value": "", "text": "Le mapping JSON se fait automatiquement après un premier envoi test", "description": ""}
+     ],
+     "column_left_title": "", "column_right_title": "", "column_left_items": [], "column_right_items": []}
+  ]
+}

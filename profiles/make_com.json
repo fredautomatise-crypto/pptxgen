@@ -1,0 +1,7 @@
+{
+  "product_name": "Make.com",
+  "course_title": "Cours Make.com complet",
+  "theme": "default",
+  "example_apps": ["Gmail", "Notion", "Slack", "Airtable", "Stripe", "OpenAI"],
+  "notes": "Profil d'exemple fourni avec le projet : montre comment préconfigurer un produit précis (nom, thème visuel, exemples d'applications à utiliser dans les illustrations pédagogiques) pour ne pas avoir à repasser --product/--theme à chaque commande. Pour créer ton propre profil, copie ce fichier sous profiles/<nom>.json et adapte les champs."
+}

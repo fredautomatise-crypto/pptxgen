@@ -1,0 +1,27 @@
+{
+  "name": "slate",
+  "label": "Ardoise & Teal",
+  "brand_name": "PptxGen",
+  "tagline": "AI Course Generator",
+  "colors": {
+    "bg_dark": "1E293B",
+    "bg_dark_alt": "334155",
+    "bg_light": "FFFFFF",
+    "bg_soft": "F1F5F9",
+    "border_soft": "E2E8F0",
+    "accent": "0F766E",
+    "accent_dark": "115E59",
+    "text_dark": "1E293B",
+    "text_muted": "64748B",
+    "text_light": "CBD5E1",
+    "text_soft": "E2E8F0",
+    "white": "FFFFFF",
+    "black": "000000"
+  },
+  "icon_palette": ["0F766E", "0284C7", "CA8A04", "7C3AED", "DC2626", "059669"],
+  "fonts": {
+    "header": "Cambria",
+    "body": "Calibri",
+    "code": "Courier New"
+  }
+}

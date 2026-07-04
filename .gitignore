@@ -1,0 +1,27 @@
+# Environnement Python
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets
+.env
+
+# Données générées (volumineuses, propres à chaque utilisateur)
+cache/
+output/
+
+# Fichiers de travail temporaires
+*.pptx
+!examples/*.pptx
+
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

@@ -1,0 +1,27 @@
+{
+  "name": "default",
+  "label": "Orange Nuit (défaut)",
+  "brand_name": "PptxGen",
+  "tagline": "AI Course Generator",
+  "colors": {
+    "bg_dark": "0F172A",
+    "bg_dark_alt": "1B3A5C",
+    "bg_light": "FFFFFF",
+    "bg_soft": "F8FAFC",
+    "border_soft": "E2E8F0",
+    "accent": "E8410C",
+    "accent_dark": "C2370A",
+    "text_dark": "1E293B",
+    "text_muted": "64748B",
+    "text_light": "CBD5E1",
+    "text_soft": "E2E8F0",
+    "white": "FFFFFF",
+    "black": "000000"
+  },
+  "icon_palette": ["E8410C", "0284C7", "10B981", "7C3AED", "D97706", "0891B2"],
+  "fonts": {
+    "header": "Cambria",
+    "body": "Calibri",
+    "code": "Courier New"
+  }
+}

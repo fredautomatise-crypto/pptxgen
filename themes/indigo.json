@@ -1,0 +1,27 @@
+{
+  "name": "indigo",
+  "label": "Indigo & Rose",
+  "brand_name": "PptxGen",
+  "tagline": "AI Course Generator",
+  "colors": {
+    "bg_dark": "1E1B4B",
+    "bg_dark_alt": "312E81",
+    "bg_light": "FFFFFF",
+    "bg_soft": "F5F3FF",
+    "border_soft": "E2E8F0",
+    "accent": "DB2777",
+    "accent_dark": "BE185D",
+    "text_dark": "1E1B2E",
+    "text_muted": "6B7280",
+    "text_light": "DDD6FE",
+    "text_soft": "EDE9FE",
+    "white": "FFFFFF",
+    "black": "000000"
+  },
+  "icon_palette": ["DB2777", "4F46E5", "059669", "D97706", "0891B2", "7C3AED"],
+  "fonts": {
+    "header": "Cambria",
+    "body": "Calibri",
+    "code": "Courier New"
+  }
+}
