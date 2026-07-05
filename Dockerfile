@@ -34,4 +34,4 @@ EXPOSE 8501
 ENV STREAMLIT_SERVER_ADDRESS=0.0.0.0
 ENV STREAMLIT_SERVER_HEADLESS=true
 
-CMD ["streamlit", "run", "webapp/app.py"]
+CMD ["streamlit", "run", "webapp/app.py", "--server.port", "8501", "--server.address", "0.0.0.0", "--server.enableCORS", "false", "--server.enableXsrfProtection", "false"]
